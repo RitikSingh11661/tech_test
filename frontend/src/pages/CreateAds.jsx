@@ -164,7 +164,7 @@ export const CreateAds = () => {
         //         </Flex>
         //     </Flex>}
         // </Box>
-        <Box border={'1px solid #ded7d7'} width={['95%', '70%']} p={['2vh 2vw', '4vh 4vw']} m="auto">
+        <Box border={'1px solid #ded7d7'} width={['97%', '80%']} p={['2vh 2vw', '4vh 4vw']} m="auto">
             {!isNextClicked && (
                 <>
                     <Text align="left">Create Ads</Text>
@@ -249,7 +249,7 @@ export const CreateAds = () => {
                             <FormLabel fontWeight={'normal'}>
                                 Website URL
                             </FormLabel>
-                            <Input id="heading01" width={'6xl'} placeholder="Add the URL of the landing page you want to redirect users to" />
+                            <Input id="heading01" width={'205%'} placeholder="Add the URL of the landing page you want to redirect users to" />
                         </FormControl>
                     </Box>
                     <Box width={['100%', '50%']}>
@@ -278,7 +278,51 @@ export const CreateAds = () => {
                             <FormLabel fontWeight="normal">Heading 01</FormLabel>
                             <Input id="heading01" placeholder="Add a heading that would make the user interested" />
                         </FormControl>
-                        {/* Add more form controls here */}
+                        <FormControl mr="5%">
+                            <FormLabel fontWeight={'normal'}>Heading 02</FormLabel>
+                            <Input id="heading02" placeholder="Add a heading that would make user interested" />
+                        </FormControl>
+                        <Flex>
+                            <FormControl mr="5%">
+                                <FormLabel fontWeight={'normal'}>
+                                    Landscape Marketing Image (1.9:1)
+                                </FormLabel>
+                                <Input id="heading01" width={'29vw'} placeholder="Add the URL of the landing page you want to redirect users to" />
+                            </FormControl>
+                            <FormControl mr="5%">
+                                <FormLabel fontWeight={'normal'}>
+                                    Profrait Marketing Image (4:5)
+                                </FormLabel>
+                                <Input id="heading01" width={'29vw'} placeholder="Add the URL of the landing page you want to redirect users to" />
+                            </FormControl>
+                            <FormControl mr="5%">
+                                <FormLabel fontWeight={'normal'}>
+                                    Square Marketing Image (1:1)
+                                </FormLabel>
+                                <Input id="heading01" width={'29vw'} placeholder="Add the URL of the landing page you want to redirect users to" />
+                            </FormControl>
+                        </Flex>
+                        <FormControl mr="5%">
+                            <FormLabel fontWeight={'normal'}>Video URL</FormLabel>
+                            <Input id="heading01" width={'6xl'} placeholder="Add the URL of the landing page you want to redirect users to" />
+                        </FormControl>
+                        <FormControl mr="5%">
+                            <FormLabel fontWeight={'normal'}>Business Name</FormLabel>
+                            <Input id="heading01" placeholder="Add your business name" />
+                        </FormControl>
+                        <FormControl>
+                            <FormLabel htmlFor="description01" fontWeight={'normal'}>Button Label</FormLabel>
+                            <Select color={'grey'} placeholder='Select a label that best suit your ad'>
+                                <option value='label 1'>Label 1</option>
+                                <option value='label 2'>Label 2</option>
+                            </Select>
+                        </FormControl>
+                        <FormControl mr="5%">
+                            <FormLabel fontWeight={'normal'}>
+                                Website URL
+                            </FormLabel>
+                            <Input id="heading01" width={'6xl'} placeholder="Add the URL of the landing page you want to redirect users to" />
+                        </FormControl>
                     </Box>
                     <FormControl width={['100%', '50%']}>
                         <FormLabel htmlFor="description01" fontWeight="normal">
